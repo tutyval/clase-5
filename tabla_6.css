@@ -13,13 +13,52 @@
 .col-md-1,.col-md-2,.col-md-3,.col-md-4,
 .col-md-5,.col-md-6,.col-md-7,.col-md-8,
 .col-md-9,.col-md-10,.col-md-11,.col-md-12
-{
+.col-ms-1,.col-ms-2,.col-ms-3,.col-ms-4,
+.col-ms-5,.col-ms-6,.col-ms-7,.col-ms-8,
+.col-ms-9,.col-ms-10,.col-ms-11,.col-ms-12{
 	float: left;
 	font-size: 40px;
 	text-align: center;
 
 } 
-
+@media (max-width: 480px){
+	.col-ms-1 {
+		width: 8.3%;
+	}
+	.col-ms-2{
+		width: 16.7%;
+	}
+	.col-ms-3 {
+		width: 25%;
+	}
+	.col-ms-4 {
+		width: 33.3%;
+	}
+	.col-ms-5 {
+		width: 41.7%;
+	}
+	.col-ms-6 {
+		width: 50%;
+	}
+	.col-ms-7 {
+		width: 58.3%
+	}
+	.col-ms-8 {
+		width: 66.7%;
+	}
+	.col-ms-9 {
+		width: 75%;
+	}
+	.col-ms-10 {
+		width: 83.3%;
+	}
+	.col-ms-11 {
+		width: 91.7%;
+	}
+	.col-ms-12 {
+		width: 100%;
+	}
+}
 .imagen {
 	max-width: 100%;
 }
