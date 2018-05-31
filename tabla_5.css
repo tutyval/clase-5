@@ -1,1 +1,27 @@
-tabla_5.css
+.titulo { 
+	color: white;
+	background-color: #61b039;
+	height: 300px;
+	font-size: 50px;
+	text-align: center; 
+	top: 0;
+	padding: 5px;
+	}
+.grillas {
+	clear: both;
+	}
+.columna {
+	float: left;
+	width: 33%;
+	font-size: 30px;
+	display: inline;
+}
+.cuadro {
+	background-color: #61b039;
+	height: 300px;
+	margin: 50px 10px 5px 10px;
+}
+.parrafo {
+	padding: 15px;
+}
+
